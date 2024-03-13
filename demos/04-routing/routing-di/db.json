@@ -41,11 +41,6 @@
       "id": "b414"
     },
     {
-      "url": "router-binding",
-      "title": "Router Binding",
-      "id": "6836"
-    },
-    {
       "url": "route-guards",
       "title": "Route Guards",
       "id": "24e7"
@@ -54,6 +49,10 @@
       "url": "preload",
       "title": "Data preloading",
       "id": "19c3"
+    },
+    {
+      "url": "this-that",
+      "title": "This and That"
     },
     {
       "url": "this-that",
@@ -79,7 +78,12 @@
     {
       "label": "Statistics",
       "url": "main/statistics"
-    }
+    },
+     {
+      "label": "Admin",
+      "url": "main/admin"
+     }
+
   ],
   "vouchers": [
     {
@@ -209,18 +213,15 @@
     {
       "id": "1",
       "name": "Angular Standalone",
-      "hours": 4,
       "completed": true
     },
     {
       "id": "2",
       "name": "Cloud Native Apps",
-      "hours": 3,
       "completed": false
     },
     {
       "name": "Cooking Pad Kra Pao",
-      "hours": 1,
       "completed": true,
       "id": "3"
     }

@@ -3,11 +3,11 @@ import { SkillsContainerComponent } from './skills-container/skills-container.co
 import { SkillsEditComponent } from './skills-edit/skills-edit.component';
 
 export const SKILL_ROUTES: Routes = [
-  { 
+  {
     path: '',
     component: SkillsContainerComponent
   },
-  { 
+  {
     path: 'edit/:id',
     component: SkillsEditComponent
   }
