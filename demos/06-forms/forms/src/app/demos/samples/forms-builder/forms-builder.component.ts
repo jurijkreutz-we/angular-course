@@ -43,7 +43,7 @@ export class FormsBuilderComponent implements OnInit {
     name: [this.person.name, Validators.required],
     age: [this.person.age],
     gender: [this.person.gender],
-    email: [this.person.email],
+    email: [this.person.email, {validators: [Validators.email, Validators.minLength(2)]}],
     wealth: [this.person.wealth],
   });
 

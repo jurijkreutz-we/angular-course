@@ -20,15 +20,15 @@ export class RoutingBasicsComponent {
   router = inject(Router);
 
   showSkills() {
-    this.router.navigate(['/skills']);
+    this.router.navigate(['/main/skills']);
   }
 
   showSkill(id: number) {
-    this.router.navigate(['/skills', id]);
+    this.router.navigate(['/main/skills/edit', id]);
   }
 
   showSkillParam(id: number) {
-    this.router.navigate(['/skills', id], {
+    this.router.navigate(['/main/skills/edit', id], {
       queryParams: { readonly: true },
     });
   }

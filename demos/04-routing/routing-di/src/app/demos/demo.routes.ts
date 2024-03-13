@@ -13,6 +13,7 @@ import { ProvidersComponent } from './samples/providers/providers.component';
 import { DependencyInjectionComponent } from './samples/dependency-injection/dependency-injection.component';
 import { NgModulesComponent } from './samples/ng-modules/ng-modules.component';
 import { demosResolver } from './samples/preload/demos.resolver';
+import { ThisthatComponent } from './samples/thisthat/thisthat.component';
 
 export const DEMO_ROUTES: Routes = [
   {
@@ -45,6 +46,10 @@ export const DEMO_ROUTES: Routes = [
         path: 'preload',
         component: PreloadComponent,
         resolve: { demos: demosResolver }
+      },
+      {
+        path: 'this-that',
+        component: ThisthatComponent
       }
     ],
   },

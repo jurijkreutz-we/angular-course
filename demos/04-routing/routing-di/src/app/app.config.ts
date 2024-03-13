@@ -16,7 +16,7 @@ import { appState } from './state/app.state';
 export const appConfig: ApplicationConfig = {
     providers: [
         provideHttpClient(),
-        provideRouter(routes, withComponentInputBinding()),
+        provideRouter(routes, withComponentInputBinding()), // holt sich Daten aus der URL und übergibt sie dem Komponent weiter als Input
         provideAnimations(),
         importProvidersFrom([
             MarkdownModule.forRoot(),

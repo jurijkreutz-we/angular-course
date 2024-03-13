@@ -54,6 +54,10 @@
       "url": "preload",
       "title": "Data preloading",
       "id": "19c3"
+    },
+    {
+      "url": "this-that",
+      "title": "This and That"
     }
   ],
   "top-links": [
@@ -71,6 +75,10 @@
       "label": "Skills",
       "url": "main/skills",
       "id": "f38f"
+    },
+    {
+      "label": "Statistics",
+      "url": "main/statistics"
     }
   ],
   "vouchers": [
